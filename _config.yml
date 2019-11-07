@@ -80,35 +80,7 @@
 		<td>　<p>　</td>
 	</tr>
 </table>
-<！-不蒜子计数->
-< script  async  src = “ // // busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js ” > </ 脚本 >
-< span  id = “ busuanzi_container_site_pv ”  style = ' display：none ' > | 总访问量< span  id = “ busuanzi_value_site_pv ” > </ span >次</ span >
-< span  id = “ busuanzi_container_site_uv ”  style = ' display：none ' > | 总访客数< span  id = “ busuanzi_value_site_uv ” > </ span >人</ span >
-<！-不蒜子计数->  
- 
- 
-<！-不蒜子计数初始值校正->
-< 脚本 >
-$（文档）。准备好了（function（）{
- 
-    var int =  setInterval（fixCount，50）;  // 50ms周期检测函数
-    var countOffset =  20000 ;  //初始化首次数据
- 
-    函数 fixCount（）{            
-       如果（文件。的getElementById（“ busuanzi_container_site_pv ”）的风格。显示器 ！=  “无”）
-        {
-            $（“ #busuanzi_value_site_pv ”）。HTML（parseInt函数（$（“ #busuanzi_value_site_pv ”）。HTML（））+ countOffset）;
-            clearInterval（int）;
-        }                  
-        if（$（“ #busuanzi_container_site_pv ”）。css（“ display ”）！=  “” none “）
-        {
-            $（“ #busuanzi_value_site_uv ”）。HTML（parseInt函数（$（“ #busuanzi_value_site_uv ”）。HTML（））+ countOffset）; //加上初始数据
-            clearInterval（int）; //停止检测
-        }  
-    }
-        
-}）;
-</ 脚本 >
+
 </body>
 
 
